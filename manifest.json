@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "daryn.data-clip",
+  "name": "Data Clip",
+  "version": "1.0.0",
+  "author": "daryn",
+  "description": "Transforms clipboard tabular data into R tibble::tribble, Python Polars/Pandas DataFrame, SQL IN/VALUES clauses, and Markdown tables.",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "DataClip.qml"
+  }
+}
