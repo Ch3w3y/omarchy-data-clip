@@ -58,7 +58,7 @@ Item {
     var opt = root.options[index]
     if (!opt || !opt.code) return
 
-    Quickshell.execDetached(["wl-copy", opt.code])
+    Quickshell.execDetached(["wl-copy", "--", opt.code])
     root.copiedFlash = true
     closeTimer.start()
   }
